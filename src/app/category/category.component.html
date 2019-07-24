@@ -1,0 +1,501 @@
+
+  	<!-- ================ start banner Area ================= -->
+    <section class="banner-area">
+			<div class="container">
+					<div class="row justify-content-center fullscreen align-items-center">
+					  <div class="col-lg-5 col-md-8">
+							<h1 class="intro-head">
+									Web Development
+								</h1>
+								<br><br>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rem quaerat nesciunt voluptate quo fugit.</p>
+								<button (click)="scroll('target')" class="primary-btn">explore</button>
+					  </div>
+					  <div class="offset-lg-2 col-lg-5 col-md-12 home-banner-right">
+						<img class="intro-img" src="assets/img/webdev.png" alt="" /> 
+					  </div>
+					</div>
+				  </div>
+		
+	</section>
+	<!-- ================ End banner Area ================= -->
+
+ 
+  
+
+  
+
+  <!-- ================ Start Popular Course Area ================= -->
+  <section class="popular-course-area section-gap target-block" id="target">
+    <div class="container-fluid">
+      <div class="row justify-content-center section-title">
+        <div class="col-lg-12">
+          <h3>
+           Courses To Get You Started
+          </h3>
+        </div>
+      </div>
+      <owl-carousel [options]="carouselOptions"  [carouselClasses]="['owl-theme', 'row', 'sliding', 'owl-one']">
+          <div class="item" >
+        <div class="single-popular-course">
+          <div class="thumb">
+            <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+          </div>
+          <div class="details">
+            <div class="d-flex justify-content-between mb-20">
+              <p class="name">Web development</p>
+              <p class="value">$150</p>
+            </div>
+            <a [routerLink]="['/aboutcourse']">
+              <h5>Learn Angular JS Course for Legendary Persons</h5>
+            </a>
+           
+          </div>
+        </div></div>
+        <div class="item" >
+            <div class="single-popular-course">
+              <div class="thumb">
+                <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+              </div>
+              <div class="details">
+                <div class="d-flex justify-content-between mb-20">
+                  <p class="name">Web development</p>
+                  <p class="value">$150</p>
+                </div>
+                <a [routerLink]="['/aboutcourse']">
+                  <h5>Learn Angular JS Course for Legendary Persons</h5>
+                </a>
+               
+              </div>
+            </div></div>
+            <div class="item" >
+                <div class="single-popular-course">
+                  <div class="thumb">
+                    <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+                  </div>
+                  <div class="details">
+                    <div class="d-flex justify-content-between mb-20">
+                      <p class="name">Web development</p>
+                      <p class="value">$150</p>
+                    </div>
+                    <a [routerLink]="['/aboutcourse']">
+                      <h5>Learn Angular JS Course for Legendary Persons</h5>
+                    </a>
+                   
+                  </div>
+                </div></div>
+                <div class="item" >
+                    <div class="single-popular-course">
+                      <div class="thumb">
+                        <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+                      </div>
+                      <div class="details">
+                        <div class="d-flex justify-content-between mb-20">
+                          <p class="name">Web development</p>
+                          <p class="value">$150</p>
+                        </div>
+                        <a [routerLink]="['/aboutcourse']">
+                          <h5>Learn Angular JS Course for Legendary Persons</h5>
+                        </a>
+                       
+                      </div>
+                    </div></div>
+      
+      </owl-carousel>
+
+    </div>
+  </section>
+ 
+  <section class="populartopics section-gap">
+        <div class="container">
+                <div class="row justify-content-center section-title">
+                        <div class="col-lg-12">
+                          <h3>
+                          Popular Topics
+                          </h3>
+                        </div>
+                      </div>
+            
+            <ul class="courses-list">
+                <div class="row">
+                    <div class="col-lg-2"> <li>
+                            <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".1s">
+                               Java
+                            </a>
+                        </li></div>
+               
+                        <div class="col-lg-2"> <li>
+                        <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".1s">
+                           Node.js
+                        </a>
+                    </li></div>
+
+                    <div class="col-lg-2"> <li>
+                        <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".3s">
+                           CSS
+                        </a>
+                    </li></div>
+                    <div class="col-lg-2">  <li>
+                        <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".5s">
+                            PHP
+                        </a>
+                    </li></div>
+                    <div class="col-lg-2"> <li>
+                        <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".7s">
+                           Docker
+                        </a>
+                    </li></div>
+                    <div class="col-lg-2"> <li>
+                        <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".9s">
+                            iOS
+                        </a>
+                    </li></div>
+                   
+                </div>
+                </ul>
+                <ul class="courses-list">
+                        <div class="row">
+                            <div class="col-lg-2"> <li>
+                                    <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".1s">
+                                        Python
+                                    </a>
+                                </li></div>
+                       
+                                <div class="col-lg-2"> <li>
+                                <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".1s">
+                                    JavaScript
+                                </a>
+                            </li></div>
+        
+                            <div class="col-lg-2"> <li>
+                                <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".3s">
+                                   Angular
+                                </a>
+                            </li></div>
+                            <div class="col-lg-2">  <li>
+                                <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".5s">
+                                    React
+                                </a>
+                            </li></div>
+                            <div class="col-lg-2"> <li>
+                                <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".7s">
+                                   Unity
+                                </a>
+                            </li></div>
+                            <div class="col-lg-2"> <li>
+                                <a class="wow fadeInLeft" href="" data-wow-duration="1s" data-wow-delay=".9s">
+                                   Android
+                                </a>
+                            </li></div>
+                           
+                        </div>
+                        </ul>
+            
+        </div>
+  </section>
+  
+  <section class="popular-course-area section-gap">
+    <div class="container-fluid">
+      <div class="row justify-content-center section-title">
+        <div class="col-lg-12">
+          <h3>
+           Popular Courses
+          </h3>
+        </div>
+      </div>
+      <owl-carousel [options]="carouselOptions" [carouselClasses]="['owl-theme', 'row', 'sliding', 'owl-one']">
+          <div class="item" >
+        <div class="single-popular-course">
+          <div class="thumb">
+            <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+          </div>
+          <div class="details">
+            <div class="d-flex justify-content-between mb-20">
+              <p class="name">Web development</p>
+              <p class="value">$150</p>
+            </div>
+            <a [routerLink]="['/aboutcourse']">
+              <h5>Learn JavaScript</h5>
+            </a>
+           
+          </div>
+        </div></div>
+
+        <div class="item" >
+            <div class="single-popular-course">
+              <div class="thumb">
+                <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+              </div>
+              <div class="details">
+                <div class="d-flex justify-content-between mb-20">
+                  <p class="name">Web development</p>
+                  <p class="value">$150</p>
+                </div>
+                <a [routerLink]="['/aboutcourse']">
+                  <h5>Learn JavaScript</h5>
+                </a>
+               
+              </div>
+            </div></div>
+            <div class="item" >
+                <div class="single-popular-course">
+                  <div class="thumb">
+                    <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+                  </div>
+                  <div class="details">
+                    <div class="d-flex justify-content-between mb-20">
+                      <p class="name">Web development</p>
+                      <p class="value">$150</p>
+                    </div>
+                    <a [routerLink]="['/aboutcourse']">
+                      <h5>Learn JavaScript</h5>
+                    </a>
+                   
+                  </div>
+                </div></div>
+                <div class="item" >
+                    <div class="single-popular-course">
+                      <div class="thumb">
+                        <img class="f-img img-fluid mx-auto" src="assets/img/popular-course/p1.jpg" alt="" />
+                      </div>
+                      <div class="details">
+                        <div class="d-flex justify-content-between mb-20">
+                          <p class="name">Web development</p>
+                          <p class="value">$150</p>
+                        </div>
+                        <a [routerLink]="['/aboutcourse']">
+                          <h5>Learn JavaScript</h5>
+                        </a>
+                       
+                      </div>
+                    </div></div>
+      
+      </owl-carousel>
+      </div>
+    
+  </section>
+
+  <section class="section-gap featured">
+    <div class="container">
+        <div class="section-title">
+            <h3>
+             Featured Courses
+            </h3></div>
+            <owl-carousel [options]="carouselOptionsfull" [carouselClasses]="['owl-theme', 'row', 'sliding', 'owl-one']" >
+                <div class="item" >
+                <div class="single-popular-course">
+                    <div class="row">
+                      <div class="col-lg-5">
+                          <div class="thumb">
+                              <img  src="assets/img/popular-course/p1.jpg" alt="" />
+                            </div>
+                      </div>
+                      <div class="col-lg-7">
+                              <div class="details">
+                               
+                                  <a [routerLink]="['/aboutcourse']">
+                                  <h4>Learn React from Legendary Persons</h4>
+                                </a><br>
+                                <p class="name">programming language</p>
+                                <p>Master React by learning form experts | By Joe Twain</p>
+                                <br>
+                                <p class="tag"><span><img src="assets/img/badge.png" alt=""/>Best Seller</span></p>
+                                <div class="bottom d-flex mt-15">
+                                  <ul class="list">
+                                    <li>
+                                      <a href="#"><i class="fa fa-star"></i></a>
+                                    </li>
+                                    <li>
+                                      <a href="#"><i class="fa fa-star"></i></a>
+                                    </li>
+                                    <li>
+                                      <a href="#"><i class="fa fa-star"></i></a>
+                                    </li>
+                                    <li>
+                                      <a href="#"><i class="fa fa-star"></i></a>
+                                    </li>
+                                    <li>
+                                      <a href="#"><i class="fa fa-star"></i></a>
+                                    </li>
+                                  </ul>
+                                  <p class="ml-20">25 Reviews</p>
+                                </div>
+                               
+
+                                <p class="value pull-right">$150</p>
+                              </div>
+                            
+                    </div>
+                  </div>
+                  </div> </div>
+                  <div class="item" >
+                      <div class="single-popular-course">
+                          <div class="row">
+                            <div class="col-lg-5">
+                                <div class="thumb">
+                                    <img  src="assets/img/popular-course/p1.jpg" alt="" />
+                                  </div>
+                            </div>
+                            <div class="col-lg-7">
+                                    <div class="details">
+                                     
+                                        <a [routerLink]="['/aboutcourse']">
+                                        <h4>Learn React from Legendary Persons</h4>
+                                      </a><br>
+                                      <p class="name">programming language</p>
+                                      <p>Master React by learning form experts | By Joe Twain</p>
+                                      <br>
+                                      <p class="tag"><span><img src="assets/img/badge.png" alt=""/>Best Seller</span></p>
+                                      <div class="bottom d-flex mt-15">
+                                        <ul class="list">
+                                          <li>
+                                            <a href="#"><i class="fa fa-star"></i></a>
+                                          </li>
+                                          <li>
+                                            <a href="#"><i class="fa fa-star"></i></a>
+                                          </li>
+                                          <li>
+                                            <a href="#"><i class="fa fa-star"></i></a>
+                                          </li>
+                                          <li>
+                                            <a href="#"><i class="fa fa-star"></i></a>
+                                          </li>
+                                          <li>
+                                            <a href="#"><i class="fa fa-star"></i></a>
+                                          </li>
+                                        </ul>
+                                        <p class="ml-20">25 Reviews</p>
+                                      </div>
+                                     
+      
+                                      <p class="value pull-right">$150</p>
+                                    </div>
+                                  
+                          </div>
+                        </div>
+                        </div> </div>
+                        <div class="item" >
+                            <div class="single-popular-course">
+                                <div class="row">
+                                  <div class="col-lg-5">
+                                      <div class="thumb">
+                                          <img  src="assets/img/popular-course/p1.jpg" alt="" />
+                                        </div>
+                                  </div>
+                                  <div class="col-lg-7">
+                                          <div class="details">
+                                           
+                                              <a [routerLink]="['/aboutcourse']">
+                                              <h4>Learn React from Legendary Persons</h4>
+                                            </a><br>
+                                            <p class="name">programming language</p>
+                                            <p>Master React by learning form experts | By Joe Twain</p>
+                                            <br>
+                                            <p class="tag"><span><img src="assets/img/badge.png" alt=""/>Best Seller</span></p>
+                                            <div class="bottom d-flex mt-15">
+                                              <ul class="list">
+                                                <li>
+                                                  <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li>
+                                                  <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li>
+                                                  <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li>
+                                                  <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                                <li>
+                                                  <a href="#"><i class="fa fa-star"></i></a>
+                                                </li>
+                                              </ul>
+                                              <p class="ml-20">25 Reviews</p>
+                                            </div>
+                                           
+            
+                                            <p class="value pull-right">$150</p>
+                                          </div>
+                                        
+                                </div>
+                              </div>
+                              </div> </div>
+                              <div class="item" >
+                                  <div class="single-popular-course">
+                                      <div class="row">
+                                        <div class="col-lg-5">
+                                            <div class="thumb">
+                                                <img  src="assets/img/popular-course/p1.jpg" alt="" />
+                                              </div>
+                                        </div>
+                                        <div class="col-lg-7">
+                                                <div class="details">
+                                                 
+                                                    <a [routerLink]="['/aboutcourse']">
+                                                    <h4>Learn React from Legendary Persons</h4>
+                                                  </a><br>
+                                                  <p class="name">programming language</p>
+                                                  <p>Master React by learning form experts | By Joe Twain</p>
+                                                  <br>
+                                                  <p class="tag"><span><img src="assets/img/badge.png" alt=""/>Best Seller</span></p>
+                                                  <div class="bottom d-flex mt-15">
+                                                    <ul class="list">
+                                                      <li>
+                                                        <a href="#"><i class="fa fa-star"></i></a>
+                                                      </li>
+                                                      <li>
+                                                        <a href="#"><i class="fa fa-star"></i></a>
+                                                      </li>
+                                                      <li>
+                                                        <a href="#"><i class="fa fa-star"></i></a>
+                                                      </li>
+                                                      <li>
+                                                        <a href="#"><i class="fa fa-star"></i></a>
+                                                      </li>
+                                                      <li>
+                                                        <a href="#"><i class="fa fa-star"></i></a>
+                                                      </li>
+                                                    </ul>
+                                                    <p class="ml-20">25 Reviews</p>
+                                                  </div>
+                                                  <p class="value pull-right">$150</p>
+                                                </div>
+                                              
+                                      </div>
+                                    </div>
+                                    </div> </div>
+                </owl-carousel>
+         
+          </div>
+  </section>
+
+  <section class="universities-area section-gap">
+      <div class="container-fluid">
+        <div class="row justify-content-center section-title">
+          <div class="col-lg-12 text-center">
+            <h2>
+                Universities That Supports Us
+            </h2>
+            
+          </div>
+        </div>
+        <owl-carousel [options]="carouselOptions"  [carouselClasses]="['owl-theme', 'row', 'sliding', 'owl-one']">
+          <div class="item" > <img src="/assets/img/uni/uni-1.png" alt="" class="uni-img"></div>
+          <div class="item" > <img src="/assets/img/uni/uni-2.png" alt="" class="uni-img"></div>
+            <div class="item" ><img src="/assets/img/uni/uni-3.png" alt="" class="uni-img"></div>
+              <div class="item" > <img src="/assets/img/uni/uni-4.png" alt="" class="uni-img"></div>
+                <div class="item" ><img src="/assets/img/uni/uni-1.png" alt="" class="uni-img"></div>
+                  <div class="item" > <img src="/assets/img/uni/uni-2.png" alt="" class="uni-img"></div>
+                    <div class="item" > <img src="/assets/img/uni/uni-5.png" alt="" class="uni-img"></div>
+                    <div class="item" > <img src="/assets/img/uni/uni-6.png" alt="" class="uni-img"></div>
+                      <div class="item" > <img src="/assets/img/uni/uni-1.png" alt="" class="uni-img"></div>
+                        <div class="item" > <img src="/assets/img/uni/uni-3.png" alt="" class="uni-img"></div>
+                          <div class="item" ><img src="/assets/img/uni/uni-5.png" alt="" class="uni-img"></div>
+                            <div class="item" > <img src="/assets/img/uni/uni-6.png" alt="" class="uni-img"></div>
+        </owl-carousel>
+          </div>
+        
+    </section>
+
+
+  

@@ -1,0 +1,86 @@
+ 	<!-- ================ Start Header Area ================= -->
+   <header class="default-header" [ngClass]="{'lecture-head':navbarVar}">
+    <nav class="navbar navbar-expand-lg  navbar-light">
+      <div class="container">
+        <a class="navbar-brand" [routerLink]="['/']">
+          <img src="assets/img/logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li><a [routerLink]="['/']">Home</a></li>
+          
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                   Courses
+                  </a>
+                  <div class="dropdown-menu" style="width: 300px !important">
+                   <div class="row">
+                     <div class="col-md-6"> <a class="dropdown-item" [routerLink]="['/category']">Development</a>
+                      <a class="dropdown-item" [routerLink]="['/category']">Data Science</a>
+                      <a class="dropdown-item" [routerLink]="['/category']">Design</a>
+                      <a class="dropdown-item" [routerLink]="['/category']">Photography</a>
+                      <a class="dropdown-item" [routerLink]="['/category']">Training</a>
+                      <a class="dropdown-item" [routerLink]="['/category']">Language</a></div>
+                   <div class="col-md-6"> <a class="dropdown-item" [routerLink]="['/category']">Marketing</a>
+                    <a class="dropdown-item" [routerLink]="['/category']">Life Science</a>
+                    <a class="dropdown-item" [routerLink]="['/category']">Business</a>
+                    <a class="dropdown-item" [routerLink]="['/category']">Economics</a>
+                    <a class="dropdown-item" [routerLink]="['/category']">Personal Dev</a>
+                    <a class="dropdown-item" [routerLink]="['/category']">Programming</a></div>
+                  </div>
+                  </div>
+            </li>
+            <!-- Dropdown -->
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                Pages
+              </a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" [routerLink]="['/aboutcourse']">Course Details</a>
+                  <a class="dropdown-item" [routerLink]="['/category']">Single Category Page</a>
+                  <a class="dropdown-item" [routerLink]="['/lecture']">Video Lecture</a>
+                  <a class="dropdown-item" [routerLink]="['/aboutus']">About</a>
+                  <a class="dropdown-item" [routerLink]="['/contactus']">Contact</a>
+                  <a class="dropdown-item" [routerLink]="['/login']">Login/Signup</a>
+                </div>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                Blog
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item"[routerLink]="['/bloghome']">Blog Home</a>
+                <a class="dropdown-item" [routerLink]="['/blog']">Blog Details</a>
+              </div>
+            </li>
+            <li><a [routerLink]="['/aboutus']">About</a></li>
+            <li><a [routerLink]="['/contactus']">Contacts</a></li>
+            <li><a [routerLink]="['/login']">Login / SignUp</a></li>
+           
+
+            <li>
+              <button class="search">
+                <span class="lnr lnr-magnifier" id="search"></span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="search-input" id="search-input-box">
+     
+        <form class="d-flex justify-content-between">
+          <input type="text" class="form-control" id="search-input" placeholder="Search Here" />
+          <button type="submit" class="btn"></button>
+          <span class="lnr lnr-cross" id="close-search" title="Close Search"></span>
+        </form>
+     
+    </div>
+  </header>
+<!-- ================ End Header Area ================= -->
+
